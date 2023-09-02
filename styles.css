@@ -160,3 +160,34 @@ h4 {
     font-size: 1vw;
   }
 }
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  nav,
+  .logo img,
+  nav ul li,
+  ul li:hover,
+  .bannerdiv,
+  .bannerdiv h2,
+  .arrow,
+  .arrow h2,
+  p,
+  .jars,
+  .jarimg::after,
+  .jars div,
+  .jars h4,
+  .jars pre,
+  h4,
+  .rightdiv,
+  .content ul li,
+  .contenth4,
+  .floatingimgright,
+  .floatingimgleft,
+  .content2 ul li,
+  #content2 h4,
+  .horizontal,
+  #footer ul li,
+  .footer {
+    width: 100%;
+  }
+}
