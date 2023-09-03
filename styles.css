@@ -173,26 +173,16 @@ h4 {
 }
 @media screen and (min-width: 320px) and (max-width: 1920px) {
   nav ul li {
-    font-size: 1vw;
+    font-size: 15px;
   }
   #footer ul li {
-    font-size: 1vw;
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-
-  ul li:hover,
-  .arrow,
-  .arrow h2,
-  .jars,
-  .jarimg::after,
-  .jars h4,
-  .jars pre,
-  h4,
-  .content2 ul li,
-  #content2 h4 {
+  .jars {
     width: 100%;
   }
   nav ul li {
@@ -245,7 +235,6 @@ h4 {
   }
   .content ul li {
     font-weight: 700;
-
     color: #0c356a;
   }
   .leftdiv {
@@ -258,15 +247,15 @@ h4 {
     background-image: url("images/Jar.jpg");
     background-size: 100% 100%;
   }
-  .floatingimgright{
+  .floatingimgright {
     width: 100%;
     height: 400px;
     background-image: url("images/carring.jpg");
     background-size: 100% 100%;
   }
-  }
+
   #footer ul li {
     display: inline;
-    font-size: 2vw;
+    font-size: 10px;
   }
 }
