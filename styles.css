@@ -220,12 +220,13 @@ h4 {
   p {
     font-size: 14px;
     font-weight: 700;
-    margin: 20px;
+
     color: #0c356a;
   }
 
   .jars div {
-    margin-left: 60px;
+    margin-right: 0px;
+
     align-items: center;
     justify-content: center;
   }
